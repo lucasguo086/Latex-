@@ -25,6 +25,6 @@ User Guide: http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.
 
 ```
 \begin{document}
-\setbeamertemplate{background}{\includegraphics[width=0.5]{youPic}}
+\setbeamertemplate{background}{\includegraphics[width=\paperheight]{youPic}}
 
 ```
