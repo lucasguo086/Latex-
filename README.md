@@ -1,4 +1,5 @@
 # Latex-
+User Guide: http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf
 
 # 中文环境
 
@@ -19,3 +20,11 @@
     {\kaishu 楷书}
 ```
 参考文档: https://www.jianshu.com/p/03c121c0868d
+
+# Beamer背景设置
+
+```
+\begin{document}
+\setbeamertemplate{background}{\includegraphics[width=0.5]{youPic}}
+
+```
