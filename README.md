@@ -28,3 +28,14 @@ User Guide: http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.
 \setbeamertemplate{background}{\includegraphics[width=\paperheight]{youPic}}
 
 ```
+# 插入图片
+
+```
+\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.35\linewidth]{Power_Law_Distribution.png}
+		\caption{Power-law distribution}
+		\label{fig:Power-law distribution}
+	\end{figure}
+
+```
